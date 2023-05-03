@@ -7,6 +7,7 @@
 
 body {
     font-family:'Open Sans', sans-serif;
+    padding-top: 80px;
 }
 
 
@@ -61,4 +62,9 @@ header .navbar {
  .one-page {
    height: 600px;
    background-color: rgb(115, 207, 235);
+   color: black;
+ }
+
+ h1 {
+  font-size: 60px;
  }
