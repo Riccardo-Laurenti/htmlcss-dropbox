@@ -15,3 +15,33 @@ body {
     margin: 0px auto;
 }
 
+
+/* Header*/
+
+header {
+  background-color: #f3ecec;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .controll {
+  display: flex;
+  align-items: center; 
+  padding: 18px;
+}
+
+ ul li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 16px;
+}
+
+
+ .btn {
+  text-decoration: none;
+  background: #7e7eff;
+  color: white;
+  padding: 10px 14px;
+ }
