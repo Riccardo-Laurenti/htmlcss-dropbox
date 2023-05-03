@@ -57,7 +57,7 @@ header .navbar {
 
 
 
- /* Main*/
+ /* Main -> DIV "one-page */
 
  .one-page {
     height: 720px;
@@ -90,3 +90,7 @@ header .navbar {
     right: 270px;
     top: 250px;
 }
+
+
+
+/* Main */
