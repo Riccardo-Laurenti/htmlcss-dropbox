@@ -8,6 +8,8 @@
 body {
     font-family:'Open Sans', sans-serif;
 }
+
+
 /* General-Container*/
 
 .container {
@@ -24,6 +26,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* Add Fixed Header*/
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 header .navbar {
@@ -41,7 +49,16 @@ header .navbar {
 
  .btn {
   text-decoration: none;
-  background: #7e7eff;
+  background: #6565e9;
   color: white;
   padding: 10px 14px;
+ }
+
+
+
+ /* Main*/
+
+ .one-page {
+   height: 600px;
+   background-color: rgb(115, 207, 235);
  }
