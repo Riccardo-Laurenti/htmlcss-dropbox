@@ -13,8 +13,13 @@ body {
 
 /* General-Container*/
 
-.container {
+.container-large {
     max-width: 1250px;
+    margin: 0px auto;
+}
+
+.container-small {
+    max-width: 1050px;
     margin: 0px auto;
 }
 
@@ -94,3 +99,14 @@ header .navbar {
 
 
 /* Main */
+
+
+.sect-1 {
+  height: 1000px;
+}
+
+
+
+h2 {
+    padding-top: 190px;
+}
