@@ -67,6 +67,14 @@ header .navbar {
     color: white;
  }
 
+ .btn-grey {
+    text-decoration: none;
+    background: white;
+    border: 1px solid grey;
+    color: black;
+    padding: 10px 14px;
+ }
+
 
 
  /* Main -> DIV "one-page */
@@ -214,30 +222,6 @@ header .navbar {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Section-3 */
-
-.base-2 {
-    height: 100px;
-    border: 1px solid red;
-    height: 100px;
-    width: 100%;
-}
-
 .flex {
     display: flex;
     justify-content: flex-start;
@@ -258,3 +242,38 @@ header .navbar {
 .badge-button {
     margin-top: 10px;
   }
+
+
+
+
+/* Section-3 */
+
+.row-sec-3 {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.row-img .partner-img {
+    height: 550px;
+  }
+  
+
+
+  .row-txt-3 h2 {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .row-txt-3 p {
+    margin-bottom: 34px;
+    line-height: 24px;
+  }
+
+
+  .row-txt-3 {
+    padding-left: 40px;
+  }
+  
