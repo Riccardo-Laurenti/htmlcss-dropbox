@@ -125,18 +125,21 @@ header .navbar {
 
 .col {
     border: 1px solid red;
-    min-height: 300px;
-    max-width: 222px;
+    min-height: ;
+    max-width: 266px;
     flex-basis: calc(100% / 3 - 40px);
 }
 
 
 .card-head {
-
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 10px;
 }
 
+
 .card-body {
-    
+
 }
 
 /* Section-2 */
