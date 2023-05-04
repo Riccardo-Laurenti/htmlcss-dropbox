@@ -33,7 +33,7 @@ header {
     justify-content: space-between;
     align-items: center;
     /* Add Fixed Header*/
-    position: fixed;
+  /*  position: fixed; */
     width: 100%;
     top: 0;
     left: 0;
@@ -58,6 +58,13 @@ header .navbar {
     background: #008eff;
     color: white;
     padding: 10px 14px;
+ }
+
+ .btn-2 {
+    padding: 10px 36px;
+    text-decoration: none;
+    background: #008eff;
+    color: white;
  }
 
 
@@ -125,9 +132,10 @@ header .navbar {
 
 .col {
     border: 1px solid red;
-    min-height: ;
-    max-width: 266px;
-    flex-basis: calc(100% / 3 - 40px);
+    height: ;
+    max-width: ;
+    flex-basis: calc(100% / 3 - 60px);
+    font-size: 14px;
 }
 
 
@@ -139,24 +147,88 @@ header .navbar {
 
 
 .card-body {
-
+    margin-top: px;
+    padding: 20px;
 }
+
+
+.card-body > h3, p {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.card-center {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+
+
+.card-body hr {
+    width: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.card-main {
+  padding-top: 20px;
+}
+
+.card-main p {
+  padding-top: 20px;
+}
+
+
+/* Card-bottom */
+
+
+
+.card-bottom > h4 {
+    margin-bottom: 20px;
+}
+
+
 
 /* Section-2 */
 
 
-.base {
+.space {
+  margin-bottom: 170px;
+}
+
+
+.row-sec-2 {
     height: 100px;
     border: 1px solid red;
     height: 100px;
     width: 100%;
 }
 
-.flex {
-    display: flex;
-    justify-content:center;
-    
+
+.card-head-sec-2 {
+    border-bottom: 1px solid red;
+    text-align: center;
+    padding: 10px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Section-3 */
