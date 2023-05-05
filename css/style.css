@@ -342,5 +342,55 @@ header .navbar {
 }
 
 
-  /* Section-5 */
+  /* Section-5 Block SVG*/
 
+#sponsors .squares {
+    display: flex;
+}
+
+
+#sponsors .square {
+    border: 2px solid red;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square > .small-square {
+    border: 2px solid red;
+    flex-basis: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sponsors img {
+    width: 50%;
+    height: auto;
+}
+
+
+.square-center h1 {
+    font-size: 66px;
+    margin-left: -4px;
+}
+
+.square-center p {
+    margin-bottom: 30px;
+}
+
+
+.square-center hr {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.square-center {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+ /* Background-Color SVG*/
