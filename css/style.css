@@ -33,7 +33,7 @@ header {
     justify-content: space-between;
     align-items: center;
     /* Add Fixed Header*/
-    position: fixed; 
+  /*  position: fixed;  */
     width: 100%;
     top: 0;
     left: 0;
@@ -46,7 +46,13 @@ header .navbar {
     padding: 18px;
 }
 
- ul li {
+
+.img-header {
+    display: block;
+}
+
+
+ .navbar ul li {
     list-style-type: none;
     display: inline-flex;
     padding: 16px;
@@ -253,27 +259,87 @@ header .navbar {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 300px;
 }
 
 
 .row-img .partner-img {
     height: 550px;
-  }
+}
   
 
 
   .row-txt-3 h2 {
     margin-top: 60px;
     margin-bottom: 24px;
-  }
+}
 
   .row-txt-3 p {
     margin-bottom: 34px;
     line-height: 24px;
-  }
+}
 
 
   .row-txt-3 {
     padding-left: 40px;
-  }
+    
+}
+
+
+
+
+  /* Section-4 */
   
+  .row-sec-4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+  .col-sec-4 {
+    max-width: 500px ;
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+}
+
+  .h1-mrg h1 {
+    margin-bottom: 40px;
+}
+
+  
+  .card-image-s4 img {
+    max-width: 88%;
+    display: block;
+ }
+
+ 
+.card-txt-s4 p {
+    margin-top: 18px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+ 
+.card-txt-s4 h4 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+
+/* Section--> Text After Card 6 */
+
+.txt-aft-crd {
+    margin: 0 -2px;
+    margin-bottom: 170px;
+}
+
+
+.txt-aft-crd h1 {
+    margin-top: 170px;
+    margin-bottom: 70px;
+    font-size: 38px;
+}
+
+
+  /* Section-5 */
+
