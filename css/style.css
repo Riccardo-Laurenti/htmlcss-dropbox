@@ -396,7 +396,7 @@ header .navbar {
  /* Background-Color SVG*/
 
  .bg-green {
-    background: #9ef99e;
+    background: #0f9b0f;
  }
 
  .bg-brown {
@@ -404,7 +404,7 @@ header .navbar {
  }
 
  .bg-dodger-b {
-    background: rgb(64, 156, 248);
+    background: rgb(31, 116, 201);
  }
 
  .bg-red {
@@ -416,7 +416,7 @@ header .navbar {
  }  
 
  .bg-blue-light {
-    background: #7bffff;
+    background: #168a8a;
  }
 
  .bg-blue-dark {
@@ -424,5 +424,29 @@ header .navbar {
  }
 
  .bg-yellow {
-    background: yellow;
+    background: rgb(199, 199, 0);
  }
+
+
+
+ /* Section 6*/
+
+#block-azure {
+    background-color: rgb(25, 189, 230);
+    height: 300px;
+}
+
+.block-fl {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 120px;
+}
+
+
+.button-white {
+    padding: 10px 36px;
+    text-decoration: none;
+    background: white;
+    color: black;
+}
