@@ -394,3 +394,35 @@ header .navbar {
 }
 
  /* Background-Color SVG*/
+
+ .bg-green {
+    background: #9ef99e;
+ }
+
+ .bg-brown {
+    background: brown;
+ }
+
+ .bg-dodger-b {
+    background: rgb(64, 156, 248);
+ }
+
+ .bg-red {
+    background: red;
+ }
+
+ .bg-red-dark {
+    background: rgb(189, 0, 0);
+ }  
+
+ .bg-blue-light {
+    background: #7bffff;
+ }
+
+ .bg-blue-dark {
+    background: #005ae2;
+ }
+
+ .bg-yellow {
+    background: yellow;
+ }
