@@ -147,6 +147,40 @@ header .navbar {
     font-size: 40px;
 }
 
+
+.task-item {
+    margin-top: 40px;
+}
+
+.marg-task {
+    margin-right: 40px;
+}
+
+
+.task-status {
+    color: green;
+    border: 4px solid rgb(15, 100, 197);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.task-text {
+    vertical-align: middle;
+}
+
+
+
+.task-grey {
+    border: 1px solid grey;
+}
+
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
