@@ -156,7 +156,7 @@ header .navbar {
 }
 
 .col {
-    border: 1px solid red;
+    border: 1px solid lightgrey;
     height: ;
     max-width: ;
     flex-basis: calc(100% / 3 - 60px);
@@ -165,7 +165,7 @@ header .navbar {
 
 
 .card-head {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     text-align: center;
     padding: 10px;
 }
@@ -227,13 +227,13 @@ header .navbar {
 
 
 .row-sec-2 {
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     width: 100%;
 }
 
 
 .card-head-sec-2 {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
     text-align: center;
     padding: 10px;
 }
