@@ -5,21 +5,32 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family:'Open Sans', sans-serif;
     padding-top: 80px;
 }
 
 
+ul li {
+    list-style-type: none;
+}
+
+
 /* General-Container*/
 
 .container-large {
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 0px auto;
 }
 
 .container-small {
     max-width: 1000px;
+    margin: 0px auto;
+}
+
+.container-footer {
+    max-width: 1200px;
     margin: 0px auto;
 }
 
@@ -33,7 +44,7 @@ header {
     justify-content: space-between;
     align-items: center;
     /* Add Fixed Header*/
-  /*  position: fixed;  */
+    position: fixed;  
     width: 100%;
     top: 0;
     left: 0;
@@ -216,13 +227,13 @@ header .navbar {
 
 
 .row-sec-2 {
-    border: 1px solid red;
+    border: 1px solid grey;
     width: 100%;
 }
 
 
 .card-head-sec-2 {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid grey;
     text-align: center;
     padding: 10px;
 }
@@ -255,7 +266,6 @@ header .navbar {
 /* Section-3 */
 
 .row-sec-3 {
-    border: 1px solid red;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -350,7 +360,6 @@ header .navbar {
 
 
 #sponsors .square {
-    border: 2px solid red;
     width: calc(100vw / 3);
     height: calc(100vw / 3);
     display: flex;
@@ -358,7 +367,6 @@ header .navbar {
 }
 
 .square > .small-square {
-    border: 2px solid red;
     flex-basis: 50%;
     height: 50%;
     display: flex;
@@ -432,20 +440,23 @@ header .navbar {
  /* Section 6 */
 
 #block-azure {
-    background-color: rgb(25, 189, 230);
-    height: 300px;
+    background-color: rgb(143, 211, 228);
 }
+
 
 .block-fl {
     display: flex;
     justify-content: space-between;;
     align-items: baseline;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
+
 
 .block-txt h1 {
     font-size: 42px;
 }
+
 
 .button-white {
     padding: 10px 36px;
@@ -481,3 +492,44 @@ header .navbar {
 
 
  /* Footer */
+
+ footer {
+    height: 600px;
+    background-color: black;
+ }
+
+
+.footer-top {
+    padding-top: 80px;
+    width: 1300px;
+}
+
+
+ .footer-nav {
+    display: flex;
+    color: white;
+ }
+ 
+
+ .footer-nav > .nav-col {
+    flex-basis: 30%;
+   
+    
+ }
+
+ .nav-col ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 34px;
+ }
+
+ 
+ .nav-col ul li a h2 {
+    margin-bottom: 28px;
+ }
+
+
+ .footer-top hr {
+    width: 10%;
+    margin-top: 120px;
+ }
