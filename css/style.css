@@ -429,7 +429,7 @@ header .navbar {
 
 
 
- /* Section 6*/
+ /* Section 6 */
 
 #block-azure {
     background-color: rgb(25, 189, 230);
@@ -438,11 +438,14 @@ header .navbar {
 
 .block-fl {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;;
     align-items: baseline;
     padding-top: 120px;
 }
 
+.block-txt h1 {
+    font-size: 42px;
+}
 
 .button-white {
     padding: 10px 36px;
@@ -450,3 +453,31 @@ header .navbar {
     background: white;
     color: black;
 }
+
+
+
+ /* Section 7 */
+
+ #question {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+ .question-txt h1 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+ .fl-question {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+ .fl-question .arrow {
+    flex-basis: 5%;
+}
+
+
+ /* Footer */
