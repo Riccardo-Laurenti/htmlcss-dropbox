@@ -8,7 +8,7 @@
 
 body {
     font-family:'Open Sans', sans-serif;
-    padding-top: 80px;
+    padding-top: px;
 }
 
 
@@ -16,6 +16,9 @@ ul li {
     list-style-type: none;
 }
 
+a {
+    color: grey;
+}
 
 /* General-Container*/
 
@@ -34,48 +37,50 @@ ul li {
     margin: 0px auto;
 }
 
+img {
+    display: block;
+}
 
 /* Header*/
 
-header {
-    background-color: #f3ecec;
+#header-main {
     height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* Add Fixed Header*/
-    position: fixed;  
+    background-color: white;
+    box-shadow: 0 1px 3px rgb(99, 96, 96);
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1;
-}
-
-header .navbar {
     display: flex;
-    align-items: center; 
-    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-main a {
+    text-decoration: none;
 }
 
 
-.img-header {
-    display: block;
+#header-main ul {
+    display: flex;
+    align-items: center;
+}
+
+#header-main li {
+    padding: 0 20px;
 }
 
 
- .navbar ul li {
-    list-style-type: none;
-    display: inline-flex;
-    padding: 16px;
-}
-
-
- .btn {
+ .btn  {
     text-decoration: none;
     background: #008eff;
     color: white;
     padding: 10px 14px;
+    display: inline-block;
  }
+
+
 
  .btn-2 {
     padding: 10px 36px;
