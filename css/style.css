@@ -23,6 +23,12 @@ a {
     color: rgb(61, 61, 61);
 }
 
+
+
+.blue-link {
+    color: blue;
+}
+
 /* General-Container*/
 
 .container-large {
@@ -121,8 +127,9 @@ a {
 
 
 #jumbotron h1 {
- font-size: 86px;
+ font-size: 71px;
  margin-bottom: 60px;
+ font-weight: 800;
 }
 
 
@@ -164,6 +171,8 @@ a {
 /* Main */
 
 /* Section-1 */
+
+
 
 .txt-row {
     margin-top: 170px;
@@ -240,17 +249,25 @@ a {
 }
 
 
-.card-body > h3, .p-mrg {
-    margin-top: 25px;
-    margin-bottom: 10px;
+.card-body h2, h3 , li{
+ margin-bottom: 18px;
 }
 
-
-
+.card-main p {
+ margin-top: 20px;
+}
 
 .card-center {
     margin-top: 40px;
     margin-bottom: 40px
+}
+
+
+
+.card-center li {
+  display: flex;
+  justify-content: baseline;
+  gap: 5px;
 }
 
 
@@ -266,6 +283,8 @@ a {
   padding-top: 20px;
 }
 
+
+
 .card-main p {
   padding-top: 20px;
 }
@@ -279,7 +298,11 @@ a {
     margin-bottom: 20px;
 }
 
-
+.card-bottom li {
+    display: flex;
+    justify-content: baseline;
+    gap: 5px;
+  }
 
 /* Section-2 */
 
