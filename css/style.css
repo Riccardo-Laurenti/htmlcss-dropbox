@@ -24,6 +24,7 @@ ul li {
 
 
 
+
 a {
     color: rgb(61, 61, 61);
 }
@@ -36,15 +37,19 @@ a {
 
 
 
+
 .mb-30 {
     margin-bottom: 30px;
 }
 
 
 
+
 .mb-60 {
     margin-bottom: 60px;
 }
+
+
 
 .btn {
     text-decoration: ;
@@ -53,7 +58,6 @@ a {
     padding: 10px 14px;
     display: inline-block;
 }
-
 
 
 
@@ -74,6 +78,17 @@ a {
 }
 
 
+
+.btn-grey {
+    text-decoration: none;
+    background: white;
+    border: 1px solid grey;
+    color: black;
+    padding: 10px 14px;
+}
+
+
+
 /* Btn Hover */
 
 
@@ -83,18 +98,10 @@ a {
 }
 
 
+
 .btn-grey:hover, .button-white:hover {
     background: grey;
     color: white;
-}
-
-
-.btn-grey {
-    text-decoration: none;
-    background: white;
-    border: 1px solid grey;
-    color: black;
-    padding: 10px 14px;
 }
 
 
