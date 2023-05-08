@@ -98,8 +98,6 @@ a {
 
 /* Header*/
 
-
-
 #header-main {
     height: 80px;
     background-color: white;
@@ -114,6 +112,8 @@ a {
     align-items: center;
     padding-top: 18px;
 }
+
+
 
 #header-main a {
     text-decoration: none;
