@@ -12,6 +12,7 @@ body {
 }
 
 
+/* Utilities */
 
 ul li {
     list-style-type: none;
@@ -24,10 +25,57 @@ a {
 }
 
 
+.btn  {
+    text-decoration: ;
+    background: #008eff;
+    color: white;
+    padding: 10px 14px;
+    display: inline-block;
+}
+
+
+
+ .btn-2 {
+    padding: 10px 36px;
+    text-decoration: none;
+    background: #008eff;
+    color: white;
+}
+
+
+
+ .btn-3 {
+    padding: 10px 82px;
+    text-decoration: none;
+    background: #008eff;
+    color: white;
+}
+
+
+
+ .btn-grey {
+    text-decoration: none;
+    background: white;
+    border: 1px solid grey;
+    color: black;
+    padding: 10px 14px;
+}
+
 
 .blue-link {
     color: blue;
 }
+
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
 
 /* General-Container*/
 
@@ -64,6 +112,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 18px;
 }
 
 #header-main a {
@@ -81,39 +130,8 @@ a {
 }
 
 
- .btn  {
-    text-decoration: ;
-    background: #008eff;
-    color: white;
-    padding: 10px 14px;
-    display: inline-block;
- }
 
 
-
- .btn-2 {
-    padding: 10px 36px;
-    text-decoration: none;
-    background: #008eff;
-    color: white;
- }
-
- .btn-grey {
-    text-decoration: none;
-    background: white;
-    border: 1px solid grey;
-    color: black;
-    padding: 10px 14px;
- }
-
-.mb-30 {
-    margin-bottom: 30px;
-}
-
-
-.mb-60 {
-    margin-bottom: 60px;
-}
 
  /* Main -> DIV "Jumbotron */
 
@@ -249,8 +267,13 @@ a {
 }
 
 
+
 .card-body h2, h3 , li{
- margin-bottom: 18px;
+    margin-bottom: 18px;
+}
+
+.li-grey {
+    color: grey;
 }
 
 .card-main p {
@@ -290,19 +313,27 @@ a {
 }
 
 
-/* Card-bottom */
 
+
+/* Card-bottom */
 
 
 .card-bottom > h4 {
     margin-bottom: 20px;
 }
 
+
 .card-bottom li {
     display: flex;
     justify-content: baseline;
     gap: 5px;
-  }
+}
+
+
+  .card-bottom i {
+    color: #609fd1;
+}
+
 
 /* Section-2 */
 
