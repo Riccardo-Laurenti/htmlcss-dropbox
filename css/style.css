@@ -8,16 +8,19 @@
 
 body {
     font-family:'Open Sans', sans-serif;
-    padding-top: px;
+    padding-top: 80px;
 }
+
 
 
 ul li {
     list-style-type: none;
 }
 
+
+
 a {
-    color: grey;
+    color: rgb(61, 61, 61);
 }
 
 /* General-Container*/
@@ -37,11 +40,11 @@ a {
     margin: 0px auto;
 }
 
-img {
-    display: block;
-}
+
 
 /* Header*/
+
+
 
 #header-main {
     height: 80px;
@@ -97,42 +100,63 @@ img {
     padding: 10px 14px;
  }
 
-
-
- /* Main -> DIV "one-page */
-
-
- .one-page {
-    height: 800px;
-    background-color: rgb(115, 207, 235);
-    color: black;
-    padding-top: 70px;
-    position: relative;
- }
-
-
- .one-page h1 {
-    font-size: 84px;
-    line-height: 120px;
-    margin-bottom: 40px;
- }
-
-
- .one-page p {
-    margin-top: 32px;
-    margin-bottom: 28px;
-}
-
-.arrow-icon {
-    margin-top: 60px;
+.mb-30 {
+    margin-bottom: 30px;
 }
 
 
-.abs-img > img {
-    height: 490px;
-    position: absolute;
-    right: 345px;
-    top: 350px;
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+ /* Main -> DIV "Jumbotron */
+
+
+#jumbotron {
+  background-color: #bcd7ed;
+  height: 740px;
+  padding-top: 80px;
+}
+
+
+
+#jumbotron h1 {
+ font-size: 86px;
+ margin-bottom: 60px;
+}
+
+
+
+.jumbo-col-30 a {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+
+
+.jumbo-col-30 p {
+    line-height: 23px;
+}
+
+
+
+.jumbo-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.jumbo-col-30 {
+    flex-basis: 30%;
+}
+
+
+.jumbo-col-70 {
+    flex-basis: 70%;
+}
+
+.jumbo-col-70 img {
+    max-width: 100%;
 }
 
 
@@ -393,6 +417,9 @@ img {
     line-height: 50px;
 }
 
+.blue-link {
+    color: blue
+}
 
   /* Section-5 Block SVG*/
 
