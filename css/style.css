@@ -113,7 +113,7 @@ a {
     bottom: -30px;
 }
 
-.nav-link-logo:hover::before {
+.nav-link-logo:hover::after {
     content: '' ;
     height: 2px;
     width: 7%;
@@ -121,10 +121,10 @@ a {
     display: block;
     position: absolute;
     left: 10;
-    bottom: 1px;
+    bottom: 2px;
 }
 
-.nav-link-btn:hover::before {
+.nav-link-btn:hover::after {
     content: '' ;
     height: 2px;
     width: 4%;
@@ -133,7 +133,7 @@ a {
     position: absolute;
     left: px;
     right: 14px;
-    bottom: 1px;
+    bottom: 2px;
 }
 
 
@@ -566,6 +566,7 @@ a {
     align-items: center;
     justify-content: center;
     border: 15px solid transparent;
+    cursor: pointer;
 }
 
 
